@@ -1,5 +1,5 @@
 [project]
-name = "rustplus"
+name = "rustplus_service"
 description="Connection between rustplus and Junction."
 version = "0.1.0"
 requires-python = ">=3.11"
@@ -7,6 +7,7 @@ requires-python = ">=3.11"
 dependencies = [
     "datetime>=6.0",
     "fastapi",
+    "rustplus==6.1.3",
     "tzdata>=2026.5",
     "uvicorn",
 ]
