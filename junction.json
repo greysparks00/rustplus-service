@@ -1,16 +1,16 @@
 {
-    "name": "time",
+    "name": "rustplus",
     "runtime": {
-        "port": 8086,
+        "port": 8087,
         "install": ["uv", "sync"],
         "command": [
             "uv", "run", "uvicorn", "main:app",
             "--host", "127.0.0.1",
-            "--port", "8086"
+            "--port", "8087"
         ]
     },
     "routing": {
-        "prefix": "/time"
+        "prefix": "/rustplus"
     },
     "health": {
         "path": "/health"

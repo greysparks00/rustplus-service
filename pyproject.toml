@@ -1,6 +1,6 @@
 [project]
-name = "time"
-description="Gets the current time and timezone so all Junction apps have a synced time."
+name = "rustplus"
+description="Connection between rustplus and Junction."
 version = "0.1.0"
 requires-python = ">=3.11"
 
